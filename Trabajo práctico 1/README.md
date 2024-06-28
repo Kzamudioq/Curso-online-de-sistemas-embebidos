@@ -8,6 +8,11 @@ Desarrollar un sistema que utilice el módulo GPS NEO-6M para obtener datos de p
 ## 📖 DESCRIPCIÓN:
 En este proyecto, se utilizará el módulo GPS NEO-6M para obtener datos de posición geográfica en tiempo real. El GPS NEO-6M se conectará a un microcontrolador (STM32F413ZH) mediante comunicación UART. El sistema leerá la información de posición, incluyendo coordenadas de latitud y longitud, y los transmitirá a una computadora para su visualización en el Serial Monitor. Además, se utilizarán LEDs para proporcionar retroalimentación visual sobre el estado del GPS, como la adquisición exitosa de la señal satelital y posibles errores en la recepción de datos. Este módulo GPS será fundamental para obtener datos precisos de ubicación y preparar el sistema para futuras expansiones que incluyan otros sensores y componentes. ¡D'oh! ¡No olvides los LEDs! 💡
 
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/Kzamudioq/Curso-online-de-sistemas-embebidos/assets/138271936/d69d3585-3aa7-480d-acda-1ee099629e0d"> 
+</p>
+
+
 ## 🔧 MATERIALES: 
 1. **Microcontrolador STM32F413ZH Nucleo-144:** Placa de desarrollo con el microcontrolador STM32F413ZH.
 2. **Módulo GPS NEO-6M:** Módulo GPS para obtener datos de posición geográfica.
@@ -64,4 +69,8 @@ MCU -right-> PC : UART
 ```
 
 Este diagrama ilustra la conexión del módulo GPS NEO-6M y los LEDs al microcontrolador STM32F413ZH, utilizando comunicación UART para enviar datos a una computadora.
+
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/Kzamudioq/Curso-online-de-sistemas-embebidos/assets/138271936/6d777d17-ea32-4512-8d3a-ea01e614b63f"> 
+</p>
 

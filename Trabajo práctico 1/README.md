@@ -46,7 +46,7 @@ A continuación, se describe el diagrama de conexión del sistema, que incluye e
 
 ## 📊 DIAGRAMA DE BLOQUES DEL SISTEMA:
 
-A continuación se presenta el diagrama de bloques del sistema:
+A continuación se presenta el diagrama de bloques del sistema que podrias ver a tráves del siguiente codigo mediante el [editor en línea de PlantText](https://www.planttext.com/):
 
 ```plantuml
 @startuml
@@ -68,7 +68,11 @@ MCU -right-> PC : UART
 @enduml
 ```
 
+![Diagrama de Bloques del Sistema](https://github.com/Kzamudioq/Curso-online-de-sistemas-embebidos/assets/138271936/7949f974-e130-4ad5-9b16-1c259774372b)
+
+
 Este diagrama ilustra la conexión del módulo GPS NEO-6M y los LEDs al microcontrolador STM32F413ZH, utilizando comunicación UART para enviar datos a una computadora.
+
 
 <p align="center" width="100%">
     <img width="60%" src="https://github.com/Kzamudioq/Curso-online-de-sistemas-embebidos/assets/138271936/6d777d17-ea32-4512-8d3a-ea01e614b63f"> 
